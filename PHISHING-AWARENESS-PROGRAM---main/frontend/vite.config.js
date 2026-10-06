@@ -13,6 +13,10 @@ export default defineConfig({
         changeOrigin: true
       }
     }
+  },
+  preview: {
+    allowedHosts: ['phisawre.onrender.com'],
+    host: '0.0.0.0',
+    port: 4173
   }
 })
-
